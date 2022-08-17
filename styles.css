@@ -19,22 +19,24 @@ body,
 
 /* Override bootstrap */
 
+div.alert-danger {
+  background-color: #2C435D;
+  border: 1px solid transparent;
+}
+
 div.alert-danger span {
-  color: #842029;
+  color: white;
   text-align: center;
 }
 
-button.btn-danger {
-  color: #1d1f29;
-  border: 1px solid #1d1f29;
+div.alert-warning {
+  background-color: #2b2d36;
+  border: 1px solid transparent;
 }
 
-button.btn-danger:hover,
-button.btn-danger:focus,
-button.btn-danger:active {
-  background-color: #1d1f29;
-  color: #dc3545;
-  border: 1px solid #dc3545;
+div.alert-warning span {
+  color: white;
+  text-align: center;
 }
 
 button.btn-warning {
@@ -61,10 +63,10 @@ button.btn-warning:active {
 h2,
 h3,
 #disclaimerWarningText,
-#dismissDisclaimerWarning,
 #resetCol,
 #pointsEligibilityWarning,
-#dismissDisclaimerWrapper {
+#disclaimerWarningWrapper div.alert-danger,
+.flex-col {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,4 +81,14 @@ h3,
 #arenaCalcWrapper input.form-control:focus {
   box-shadow: 0 0 0 0.25rem rgb(218 165 32 / 50%);
   border: 1px solid #daa520;
+}
+
+/* 
+  Arena Point Icon
+*/
+
+.arena-points-icon {
+  width: 32px;
+  height: 32px;
+  margin-left: 8px;
 }

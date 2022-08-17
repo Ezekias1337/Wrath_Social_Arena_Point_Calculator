@@ -76,6 +76,7 @@ h3,
 
 #arenaCalcWrapper input.form-control {
   color: white;
+  width: 95%;
 }
 
 #arenaCalcWrapper input.form-control:focus {
@@ -91,4 +92,12 @@ h3,
   width: 32px;
   height: 32px;
   margin-left: 8px;
+}
+
+/* 
+  Font Awesome
+*/
+
+i {
+  margin-left: 5px;
 }
